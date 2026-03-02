@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Data files
+data/raw/*
+data/clean/*
+data/curated/*
+!data/raw/.gitkeep
+!data/clean/.gitkeep
+!data/curated/.gitkeep
+
+# OS
+.DS_Store
+
+# VS Code
+.vscode/settings.json
